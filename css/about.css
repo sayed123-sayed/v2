@@ -1,0 +1,32 @@
+body{
+    background: url("../img/image (4) - Copy.png");
+    min-height: 100vh;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition-duration: .2s;
+}
+a:hover{
+    color: rgb(56, 55, 131);
+}
+ul{
+    display: flex;
+    gap: 42px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 30px;
+}
